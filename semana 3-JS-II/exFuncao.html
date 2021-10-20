@@ -1,0 +1,28 @@
+<html>
+<script>
+        // EXERCICIO: 
+        // Farmacia JS está em promoção. A cada 2 produtos iguais comprados, receba 5 reais de desconto.
+        // Escreva um programa para auxiliar a farmacia a calcular o valor final do produto.
+
+
+        
+
+        function calculo( prodUm,prodDois) {
+               
+                if (prodUm === prodDois) {
+
+                        return (prodUm + prodDois) - 5;
+
+                }else {
+                        return (prodUm + prodDois);
+                }
+        }
+        let produtoUm = Number(prompt('Digite o valor do primeiro produto: '));
+        let produtoDois = Number(prompt('Digite o valor do segundo produto: '));
+
+        alert(calculo(produtoUM ,produtoDois))
+        
+        
+</script>
+
+</html>
