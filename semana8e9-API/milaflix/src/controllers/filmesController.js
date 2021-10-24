@@ -1,19 +1,11 @@
 //controller vai ter a logica
-
 //chamando o Json de filmes
 const filmesJson = require("../models/filmes.json")
 
 //funcao getAll retorna todos os filmes GET
 const getAll = (request, response) => {
 
-
-    response.status(200).json([
-        {
-            "filmes": filmesJson,
-            //"series": seriesJson
-        }
-    ])
-
+    response.status(200).json([{"filmes": filmesJson}])//retorna todos os filmes
 }
 
 //funcao getById retorna um filme de id especifico GET
@@ -23,8 +15,9 @@ const getById = (request, response) => {
 
     let idEncontrado = filmesJson.find(filme => filme.id == idRequest)
 
-    response.status(200).send(idEncontrado)
+    response.status(200).send(idEncontrado)//retorna pequisa por id
 }
+
 //funcao createMovie retorna a criação de um novo filllme POST
 const createMovie = (request, response) => {
 
@@ -89,6 +82,8 @@ const updateMovie = (request,response) =>{
 }
 //função que deleta
  const deleteItem = (request,response) =>{
+
+
 
  }
 // exportando todas as funcoes do controller para ser usada no filmesRoutes.js
