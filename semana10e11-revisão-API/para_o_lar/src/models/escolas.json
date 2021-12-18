@@ -1,0 +1,95 @@
+[
+    {   
+        "id": 1,
+        "likes": 1,
+        "nome": "Escola Antonio Neto",
+        "categoria": "particular",
+        "endereço": "Rua Batatinha",
+        "numero": 56,
+        "bairro": "centro",
+        "cidade": "Rio de Janeiro",
+        "telefone": "2228-5479",
+        "pagamento":["cartao", "boleto"],
+        "ead": true
+
+    },
+    {   
+        "id": 2,
+        "likes": 1,
+        "nome": "Colégio Pedro de Albuquerque",
+        "categoria": "particular",
+        "endereço": "Rua Nigara",
+        "numero": 79,
+        "bairro": "taquara",
+        "cidade": "Rio de Janeiro",
+        "telefone": "5748-9634",
+        "pagamento":["boleto", "pix"],
+        "ead": false
+
+    },
+    {  
+        "id": 3,
+        "likes": 1,
+        "nome": "Escola Pedro Alves Cabral",
+        "categoria": "estadual",
+        "endereço": "Rua Barao Venancio",
+        "numero": 85,
+        "bairro": "pilares",
+        "cidade": "Rio de Janeiro",
+        "telefone": "3241-7584",
+        "pagamento":["gratuito"],
+        "ead": false
+    },
+    { 
+        "id": 4,
+        "likes": 2,
+        "nome": "EDI Visconde de Cairu",
+        "categoria": "municipal",
+        "endereço": "Avenida Dom Helder",
+        "numero": 2568,
+        "bairro": "bonsucesso",
+        "cidade": "Rio de Janeiro",
+        "telefone": "2679-8432",
+        "pagamento":["gratuito"],
+        "ead": true
+    },
+    { 
+        "id": 5,
+        "likes": 2,
+        "nome": "Colégio Salesiano",
+        "categoria": "particular",
+        "endereço": "Rua Dom Bosco",
+        "numero": 198,
+        "bairro": "riachuelo",
+        "cidade": "Rio de Janeiro",
+        "telefone": "3256-7899",
+        "pagamento":["cartao", "pix","boleto"],
+        "ead": true
+    },
+    { 
+        "id": 6,
+        "likes": 2,
+        "nome": "Escola Clóvis de Azevedo ",
+        "categoria": "municipal",
+        "endereço": "Avenida Viuva Amélia",
+        "numero": 3000,
+        "bairro": "benfica",
+        "cidade": "Rio de Janeiro",
+        "telefone": "4165-7892",
+        "pagamento":["gratuito"],
+        "ead": false
+    },
+    { 
+        "id": 7,
+        "likes": 2,
+        "nome": "Colégio Negrão de Lima",
+        "categoria": "estadual",
+        "endereço": "Rua Conde de Azambuja",
+        "numero": 77,
+        "bairro": "centro", 
+        "cidade": "Rio de Janeiro",
+        "telefone": "2598-7546",
+        "pagamento":["gratuito"],
+        "ead": true
+    }
+]
